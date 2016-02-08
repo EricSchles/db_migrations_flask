@@ -3,6 +3,12 @@
 	<title></title>
 </head>
 <body>
-<p>Hello</p>
+
+<p> {{ length }} </p>
+
+{% for d in data %}
+	<p>{{d.elem}}</p>
+{% endfor %}
+
 </body>
 </html>
